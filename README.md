@@ -6,4 +6,10 @@ Alan Clech Oliveros
 Antonio Bueno
 Jabril Hassan Alvarez
 
-**URL Repositorio**: https://github.com/ACO1598/Entrega-Practica1-IS
+En este Projecto hemos realizado unas funciones que nos permiten:
+
+-Introducir y leer un vectores.
+
+-Sumar 2 de dichos vectores
+
+-Determinar la existencia de un numero primo dentro del vector y su posicion.
