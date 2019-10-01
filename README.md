@@ -3,7 +3,9 @@
 ### Nombre Participantes
 
 Alan Clech Oliveros
+
 Antonio Bueno
+
 Jabril Hassan Alvarez
 
 En este Projecto hemos realizado unas funciones que nos permiten:
