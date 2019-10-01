@@ -8,3 +8,9 @@ void readVector(int *v, int n){
 	}
 	
 }
+
+
+void showVectores(int *v,int n){
+	
+
+}
