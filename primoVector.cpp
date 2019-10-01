@@ -32,14 +32,18 @@ int primerPrimo(int *v, int n){
 		}
 		i++;
 		if(n == i){
-			cout<<"Ningun primo en el array\n";
-			break;
+			return 0;
 		}
 	}
 }
 
 int main(){
-	int array[4]= {12, 32, 4, 57};
-	primerPrimo(array, 4);
-
+	int array[4]= {12, 32, 3, 57};
+	res= primerPrimo(array, 4);
+	
+	if(res = 0){
+		cout<<"No se ha encontrado ningun primo";
+	}else{
+		cout<<"Primo en contrado en la posicion: "<<res;
+	}
 }
