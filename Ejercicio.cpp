@@ -11,6 +11,9 @@ void readVector(int *v, int n){
 
 
 void showVectores(int *v,int n){
-	
+	for(int i=0;i<=n;i++){
+		cout<<v[i];
+	}
+
 
 }
