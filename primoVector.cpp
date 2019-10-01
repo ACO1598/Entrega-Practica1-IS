@@ -27,12 +27,19 @@ int primerPrimo(int *v, int n){
 
 	while(i < n || prim== false){
 		prim= esPrimo(v[i]);
+		if(prim == true){
+			return i;
+		}
+		i++;
+		if(n == i){
+			cout<<"Ningun primo en el array\n";
+			break;
+		}
 	}
 }
 
 int main(){
-	cout<<"test \n";
-	int array[4]= {12, 32, 3, 57};
+	int array[4]= {12, 32, 4, 57};
 	primerPrimo(array, 4);
 
 }
