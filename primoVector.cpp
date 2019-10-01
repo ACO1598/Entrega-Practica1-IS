@@ -18,12 +18,21 @@ bool esPrimo(int n){
 	}else{
 		res= false;
 	}
+	return res;
 }
 
-int primerPrimo(int *v, int n, int &elementos){
+int primerPrimo(int *v, int n){
+	bool prim= false;
+	int i=0;
 
+	while(i < n || prim== false){
+		prim= esPrimo(v[i]);
+	}
 }
 
 int main(){
-	esPrimo(3);
+	cout<<"test \n";
+	int array[4]= {12, 32, 3, 57};
+	primerPrimo(array, 4);
+
 }
